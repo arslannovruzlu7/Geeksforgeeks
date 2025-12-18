@@ -1,5 +1,4 @@
 def isEven(n):
-    # taking bitwise and of n with 1 
     if (n & 1) == 0:
         return True
     else:
